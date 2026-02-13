@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine's Letter ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        background: white;
+        padding: 30px;
+        max-width: 400px;
+        width: 90%;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        text-align: center;
+        animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+        color: #e63946;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #444;
+        line-height: 1.6;
+        font-size: 16px;
+    }
+
+    .heart {
+        font-size: 40px;
+        animation: heartbeat 1.2s infinite;
+    }
+
+    @keyframes heartbeat {
+        0% { transform: scale(1); }
+        25% { transform: scale(1.2); }
+        50% { transform: scale(1); }
+        75% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 480px) {
+        .card {
+            padding: 20px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="heart">❤️</div>
+    <h1>Happy Valentine's Day</h1>
+    <p>
+      If loving you means changing, then i will change without saying a word. i will give up everything that i am, who i have been, just for the chance to be man enough to make you feel safe, comfortable, and loved unconditionally.
+<br><br>
+i am worth every sacrifice, every effort, every quiet fight within myself. There is nothing in this world i wouldn’t give up if it means that you are happy, truly happy.
+<br><br>
+i hope you know that the love that i am feeling for you is permanent and no matter how bad the days get, it will never change. 
+<br><br>
+i don’t love you halfway. i love you with the kind of love that stays, that grows, that chooses you every single day.
+<br><br>
+</p>
+<strong>
+happy valentines day, my love. <br>
+always, cedie
+</strong>
+</div>
+
+</body>
+</html>
